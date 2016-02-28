@@ -1,20 +1,22 @@
 A simple Intel x86 Assembly interpreter written in Haskell using Parsec.
 
 Usage:
-  # Create expression tree
+```haskell
+  -- Create expression tree
   mainParser "mov ecx, 5"
   mainParser "mov eax, edx"
   mainParser "mov edx, variable"
   mainParser "int 0x80"
 
-  # Create expression tree from file
+  -- Create expression tree from file
   mainFileParser "example.asm"
 
-  # Evaluate single instruction
+  -- Evaluate single instruction
   evaluateExec "mov ecx, 5"
 
-  # Evaluate lines in file
+  -- Evaluate lines in file
   mainPrint "example.asm"
+```
 
 TODOs
 - make it more modular
