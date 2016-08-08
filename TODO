@@ -1,0 +1,6 @@
+* convert tokenizers to lexemes
+* implement persistent CPU state
+* implement variable defining (DB, section .data)
+* implement section .text (instructions) and .data (variables)
+* EQU directive
+* implement remaining instructions (jmp, cmp, ...)

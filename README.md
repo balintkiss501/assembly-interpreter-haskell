@@ -16,12 +16,7 @@ Usage:
 
   -- Evaluate lines in file
   mainPrint "example.asm"
-```
 
-TODOs
-- make it more modular
-- convert tokenizers to lexemes
-- implement variable defining (DB, section .data)
-- implement section .text (instructions) and .data (variables)
-- EQU directive
-- pass CPU state
+  -- Opens up a prompt to write assembly commands in it
+  propmt
+```
